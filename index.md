@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+I am currently a Masters in Statistics student at NC State. This blog is for the ST558 Data Science course as part of that program.
