@@ -1,32 +1,13 @@
-## Blog Post Title From First Header
+## Module 1 Blog Post
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+What do you think being a data scientist is about?  
+It is apparent that a data scientist has many different forms. The most basic is that a data scientist has to be an expert at things related to data. This means being able to access and work with data across the whole data lake. This is above and beyond what a data analyst can do. 
 
-If the file does not start with a header, then the post title will be derived from the filename.
+What do you see as the major duties and/or knowledge areas?  
+The major duties will center around ETL or Extract, Transform, Load. This sounds simple, but it involves knowledge of different areas including programming languages such as R or Python, database languages like SQL, as well as knowledge about the business.
 
-This is a sample blog post. You can talk about all sorts of fun things here.
+What differences/similarities do you see between data scientists and statisticians? 
+Personally I think they are just titles and a data scientist is just a modern day statistician. The principles of both a data scientist and statistician are the same, the only difference is the tools used. Instead of cranking out difficult to impossible calculations by hand, we can now plug them into a modern day computing system and effortlessly arrive at the answer. 
 
----
-
-### This is a header
-
-#### Some T-SQL Code
-
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
-
-#### Some PowerShell Code
-
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
-```
+How do you view yourself in relation to these two areas?
+Again, I don't see a difference, but I would definitely fall into the category that uses modern day computing power to answer the questions.
