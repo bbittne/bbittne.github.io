@@ -24,14 +24,3 @@ solve the same problem.
 I haven’t hand any other formal training in R besides this course, so
 the explanations have definitely helped a lot. The use of the tidyverse
 packages make R easier to work with.
-
-``` r
-#rmarkdown::render("_Rmd/2022-06-04-blog-post-Module5.Rmd", 
-#   output_format = "github_document", 
-#   output_dir = "/_posts"
-#   output_options = list(
-#       html_document:
-#           code_folding: hide,
-#       github_document:)
-#   )
-```
