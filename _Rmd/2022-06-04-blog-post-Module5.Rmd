@@ -10,7 +10,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE,fig.path = "../images/")
 ```
 
 ## Blog Post 3
@@ -20,6 +20,13 @@ Everyone in this course had some programming experience coming in (due to the pr
 Most of my programming experience would revolve around the .net series of languages as well as the SQL database programming language. I have also taken the Python programming course here at NC State. Overall I like R, but if I had to choose between R and Python, I would choose Python. As a software engineer, Python seems more intuitive and easier to work with. I also like the fact that there is a single package to do most things vs R it seems like everyone has their own packages that solve the same problem. 
 
 I haven't hand any other formal training in R besides this course, so the explanations have definitely helped a lot. The use of the tidyverse packages make R easier to work with.
+
+## R Markdown output
+
+```{r}
+plot(iris)
+```
+
 
 ```{r echo = FALSE}
 #rmarkdown::render("_Rmd/2022-06-04-blog-post-Module5.Rmd", 

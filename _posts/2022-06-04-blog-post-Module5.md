@@ -24,3 +24,11 @@ solve the same problem.
 I haven’t hand any other formal training in R besides this course, so
 the explanations have definitely helped a lot. The use of the tidyverse
 packages make R easier to work with.
+
+## R Markdown output
+
+``` r
+plot(iris)
+```
+
+![](../images/unnamed-chunk-1-1.png)<!-- -->
