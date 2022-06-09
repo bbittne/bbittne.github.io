@@ -13,6 +13,16 @@ output:
 knitr::opts_chunk$set(echo = TRUE,fig.path = "../images/")
 ```
 
+```{r, eval=FALSE}
+rmarkdown::render("_Rmd/2022-06-04-blog-post-Module5.Rmd", 
+                  output_format = "github_document",
+                  output_dir = "./_posts",
+                  output_options = list(
+                    html_preview= FALSE
+                    )
+)
+```
+
 ## Blog Post 3
 
 Everyone in this course had some programming experience coming in (due to the prerequisites).  What are your thoughts on R vs whatever other software you've used? What functionality do you like about R?  What parts do you miss about your other language?  Do you consider R a difficult language to learn? (If you knew R prior to the course, describe your experience when first learning it.)
@@ -25,17 +35,5 @@ I haven't hand any other formal training in R besides this course, so the explan
 
 ```{r}
 plot(iris)
-```
-
-
-```{r echo = FALSE}
-#rmarkdown::render("_Rmd/2022-06-04-blog-post-Module5.Rmd", 
-#	output_format = "github_document", 
-#	output_dir = "/_posts"
-#	output_options = list(
-#		html_document:
-#			code_folding: hide,
-#		github_document:)
-#	)
 ```
 

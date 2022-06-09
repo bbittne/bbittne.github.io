@@ -3,6 +3,16 @@ Programming Background
 Bryan Bittner
 2022-06-04
 
+``` r
+rmarkdown::render("_Rmd/2022-06-04-blog-post-Module5.Rmd", 
+                  output_format = "github_document",
+                  output_dir = "./_posts",
+                  output_options = list(
+                    html_preview= FALSE
+                    )
+)
+```
+
 ## Blog Post 3
 
 Everyone in this course had some programming experience coming in (due
@@ -31,4 +41,4 @@ packages make R easier to work with.
 plot(iris)
 ```
 
-![](../images/unnamed-chunk-1-1.png)<!-- -->
+![](../images/unnamed-chunk-2-1.png)<!-- -->
