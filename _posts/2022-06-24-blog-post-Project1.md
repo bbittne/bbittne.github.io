@@ -17,7 +17,7 @@ rmarkdown::render("_Rmd/2022-06-24-blog-post-Project1.Rmd",
 
 In my current position, one of my job duties is to forecast revenue for
 the state of North Dakota. With the list of API’s to choose from, I
-naturally gravitated to the Financial Data api.In the beginning, I did
+naturally gravitated to the Financial Data API. In the beginning, I did
 not have a plan for the data. As soon as I started querying the data and
 running my EDA, a storyline quickly developed.
 
