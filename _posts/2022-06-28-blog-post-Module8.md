@@ -30,7 +30,7 @@ crazy fast and efficient and can be useful for seemingly endless tasks.
 Traditionally programming languages would require a loop and multiple
 statements. R can handle this in a single line of code.
 
-Below is a quick example of mutate() with if_else()/
+Below is a quick example of mutate() with if_else().
 
 First lets generate some random numbers between 0 and 1
 
@@ -44,16 +44,16 @@ testData
     ## # A tibble: 100 × 1
     ##    Values
     ##     <dbl>
-    ##  1  0.665
-    ##  2  0.841
-    ##  3  0.437
-    ##  4  0.840
-    ##  5  0.280
-    ##  6  0.222
-    ##  7  0.761
-    ##  8  0.705
-    ##  9  0.904
-    ## 10  0.849
+    ##  1 0.457 
+    ##  2 0.0700
+    ##  3 0.255 
+    ##  4 0.685 
+    ##  5 0.876 
+    ##  6 0.248 
+    ##  7 0.358 
+    ##  8 0.707 
+    ##  9 0.457 
+    ## 10 0.882 
     ## # … with 90 more rows
 
 Now if we wanted to add a new binary variable that is 1 if the values is
@@ -68,16 +68,16 @@ testData
     ## # A tibble: 100 × 2
     ##    Values ValuesGTEOneHalf
     ##     <dbl>            <dbl>
-    ##  1  0.665                1
-    ##  2  0.841                1
-    ##  3  0.437                0
-    ##  4  0.840                1
-    ##  5  0.280                0
-    ##  6  0.222                0
-    ##  7  0.761                1
-    ##  8  0.705                1
-    ##  9  0.904                1
-    ## 10  0.849                1
+    ##  1 0.457                 0
+    ##  2 0.0700                0
+    ##  3 0.255                 0
+    ##  4 0.685                 1
+    ##  5 0.876                 1
+    ##  6 0.248                 0
+    ##  7 0.358                 0
+    ##  8 0.707                 1
+    ##  9 0.457                 0
+    ## 10 0.882                 1
     ## # … with 90 more rows
 
 This is an over simplistic example, but if you had a dataset with

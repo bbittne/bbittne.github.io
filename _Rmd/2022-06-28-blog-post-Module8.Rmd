@@ -29,7 +29,7 @@ In my humble opinion, I still prefer Python over R as a general programming lang
 
 Getting more specific, I think the coolest and probably underutilized feature in R would be the mutate() function in conjunction with the if_else() vectorized comparison. In my opinion this is HUGE!! It is crazy fast and efficient and can be useful for seemingly endless tasks. Traditionally programming languages would require a loop and multiple statements. R can handle this in a single line of code.
 
-Below is a quick example of mutate() with if_else()/
+Below is a quick example of mutate() with if_else().
 
 First lets generate some random numbers between 0 and 1
 
