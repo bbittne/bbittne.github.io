@@ -1,4 +1,4 @@
-Project 1
+Project 2
 ================
 Bryan Bittner
 2022-07-08
@@ -23,27 +23,27 @@ new things that we had to learn along the way.
 
 One of the most interesting aspects of this project was the ‘automation’
 portion. This required additional code that would allow us to pass in a
-particalar news channel as a parameter. The report would then
+particular news channel as a parameter. The report would then
 automatically subset the news data to that specific channel and run the
 analysis and modeling on that single channel. As the parameter channels
 change, the report will change along with it.
 
 If more time was allowed in the project, I would have spent additional
-time and effort on some of the summarizations and models. I think there
-are additional insights that could have been drawn out from the vast
-dataset that were left untouched. We worked on the data as a subset, I
-think it would have also been interesting to do some modelling using the
-whole dataset to see if that would have changed any predictions.
+time and effort on some of the summaries and models. I think there are
+additional insights that could have been drawn out from the vast data
+set that were left untouched. We worked on the data as a subset, I think
+it would have also been interesting to do some modelling using the whole
+data set to see if that would have changed any predictions.
 
 The most difficult part for me was the automation portion. There is a
 lot going on in that small code block so not only is it a lesser known
-feature, it is not very intiutive. Having said that, it is definitely a
+feature, it is not very intuitive. Having said that, it is definitely a
 cool feature and it works great!!
 
 Overall I think this was a good project. Working with a team always has
-its advantages and disadavantages. With this project I had some personal
+its advantages and disadvantages. With this project I had some personal
 family matters doing on which limited my participation. This meant that
-Li did more than her fair sure of work. I greatly apprecated that but
+Li did more than her fair sure of work. I greatly appreciated that but
 also feel bad about putting her in that position. Parameter driven
 reports/projects are widely used across industry so it is good to work
 on a real lifelike example of what we will encounter outside of the
