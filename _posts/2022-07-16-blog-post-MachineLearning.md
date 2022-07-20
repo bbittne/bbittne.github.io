@@ -13,7 +13,7 @@ rmarkdown::render("_Rmd/2022-07-16-blog-post-MachineLearning.Rmd",
 )
 ```
 
-## Blog Post 5 - Machine Learning
+## Blog Post - Machine Learning
 
 We have learned a lot of different modeling types and machine learning
 methods. All of which are very interesting and have their specific uses.
@@ -59,12 +59,12 @@ head(irisDataTrain)
 ```
 
     ##     Sepal.Length Sepal.Width Petal.Length Petal.Width    Species
-    ## 22           5.1         3.7          1.5         0.4     setosa
-    ## 139          6.0         3.0          4.8         1.8  virginica
-    ## 68           5.8         2.7          4.1         1.0 versicolor
-    ## 12           4.8         3.4          1.6         0.2     setosa
-    ## 95           5.6         2.7          4.2         1.3 versicolor
-    ## 128          6.1         3.0          4.9         1.8  virginica
+    ## 67           5.6         3.0          4.5         1.5 versicolor
+    ## 16           5.7         4.4          1.5         0.4     setosa
+    ## 92           6.1         3.0          4.6         1.4 versicolor
+    ## 147          6.3         2.5          5.0         1.9  virginica
+    ## 108          7.3         2.9          6.3         1.8  virginica
+    ## 54           5.5         2.3          4.0         1.3 versicolor
 
 In order to fit a kNN model, we need to load the class library. For the
 model fit, we will pass in the training data and use the test data to
@@ -82,18 +82,18 @@ fitInfo
 ```
 
     ## # A tibble: 30 × 4
-    ##    knnFit     Species Sepal.Length Sepal.Width
-    ##    <fct>      <fct>          <dbl>       <dbl>
-    ##  1 setosa     setosa           4.9         3  
-    ##  2 setosa     setosa           5           3.6
-    ##  3 setosa     setosa           4.3         3  
-    ##  4 setosa     setosa           5.1         3.3
-    ##  5 setosa     setosa           5.2         3.4
-    ##  6 setosa     setosa           4.4         3  
-    ##  7 versicolor setosa           4.5         2.3
-    ##  8 setosa     setosa           4.4         3.2
-    ##  9 setosa     setosa           5           3.5
-    ## 10 setosa     setosa           5.1         3.8
+    ##    knnFit     Species    Sepal.Length Sepal.Width
+    ##    <fct>      <fct>             <dbl>       <dbl>
+    ##  1 setosa     setosa              4.9         3.1
+    ##  2 setosa     setosa              5.1         3.5
+    ##  3 setosa     setosa              4.7         3.2
+    ##  4 setosa     setosa              5.5         3.5
+    ##  5 versicolor setosa              4.5         2.3
+    ##  6 setosa     setosa              4.4         3.2
+    ##  7 setosa     setosa              5.3         3.7
+    ##  8 virginica  versicolor          7           3.2
+    ##  9 virginica  versicolor          6.4         3.2
+    ## 10 versicolor versicolor          5           2  
     ## # … with 20 more rows
 
 Now that the model has been fit, we can use this table below to see how
@@ -110,9 +110,9 @@ tbl1
 
     ##             
     ##              setosa versicolor virginica
-    ##   setosa         10          0         0
-    ##   versicolor      1          2         6
-    ##   virginica       0          4         7
+    ##   setosa          6          0         0
+    ##   versicolor      1          4         3
+    ##   virginica       0          7         9
 
 Here we can get an actual value to see how accurate the model is. The
 value below is a ‘mis-classification rate’. Meaning this is how often

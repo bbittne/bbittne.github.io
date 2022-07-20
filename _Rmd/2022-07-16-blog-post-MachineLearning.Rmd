@@ -26,7 +26,7 @@ rmarkdown::render("_Rmd/2022-07-16-blog-post-MachineLearning.Rmd",
 )
 ```
 
-## Blog Post 5 - Machine Learning
+## Blog Post - Machine Learning
 
 We have learned a lot of different modeling types and machine learning methods. All of which are very interesting and have their specific uses. I would have to say that I think the coolest model that we learned about would have to be the kNN nearest neighbor. 
 
